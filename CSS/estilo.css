@@ -1,0 +1,28 @@
+body{
+	background-image: url(../Imagens/fundo-1.jpg);
+	background-size: cover;
+}
+
+#MENU ul {
+	position: absolute;
+    list-style:none;
+    margin-top: -20px;
+    margin-left: 500px;
+}
+#MENU ul li { 
+	display: inline;								/*deixas os botoes do menu na horizontal*/
+}
+#MENU ul li a {
+    padding:10px;
+    display: inline-block;
+    background-color: #646464;
+    color: #000000; 								/*muda cor das letras do menu*/
+    text-decoration: none;
+    font-size: 10pt sans-serif;
+}
+div#fundo-corpo {
+	height: 690px;
+	width: 800px;
+	background-color: #262626;
+	margin: 70px auto 0px auto;
+}
